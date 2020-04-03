@@ -1,6 +1,6 @@
 function fizzBuzz(n) {
 
-    for (let number = 0; number < n; number++) {
+    for (let number = 0; number <= n; number++) {
       if(number % 3 === 0 && number % 5 == 0) {
         console.log("FizzBuzz")
        } else if(number % 3 === 0) {
@@ -18,3 +18,4 @@ function fizzBuzz(n) {
   }
   
   fizzBuzz(150);
+  
